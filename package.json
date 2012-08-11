@@ -1,0 +1,29 @@
+{
+  "author": "{{author}} <{{email}}>",
+  "name": "{{module-name}}",
+  "description": "{{module-description}}",
+  "version": "0.0.1",
+  "homepage": "",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "main": "./lib/{{module-name}}.js",
+  "scripts": {
+    "test": "cake test"
+  },
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "test-util": "0.2.x",
+    "mocha": "1.3.x",
+    "growl": "1.5.x",
+    "fs-extra": "0.1.x",
+    "path-extra": "0.0.x"
+  },
+  "engines": {
+    "node": "*"
+  }
+}
